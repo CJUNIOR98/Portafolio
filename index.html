@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="shortcut icon" href="./assets/images/portafolio-profesional.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav class="menu">
+        <ol class="menu-list">
+            <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+            <li class="menu-item"><a href="#about" class="menu-link">Acerca de mí</a></li>
+            <li class="menu-item"><a href="#services" class="menu-link">Servicios</a></li>
+            <li class="menu-item"><a href="#skills" class="menu-link">Habilidades</a></li>
+            <li class="menu-item"><a href="#projects" class="menu-link">Proyectos</a></li>
+            <li class="menu-item"><a href="#contact" class="menu-link">Contacto</a></li>
+        </ol>
+    </nav>
+    <button class="btn btn--menu hamburger hamburger--vortex" type="button">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+    <button class="btn btn--scroll hidden">&#11014;</button>
+    <div class="wrap">
+        <header class="header" id="home" data-menu>
+            <div class="container-title">
+                <h1 class="title">Soy<span class="title-span">Carlos</span></h1>
+                <div class="title-line"></div>
+                <p class="title-description">Desarrollador Frontend</p>
+            </div>
+            <div class="circle"></div>
+            <div class="container-photo">
+                <img src="./assets/images/foto.png" alt="Foto de Carlos class="photo">
+            </div>
+            <div class="container-experience">
+                <p class="experience-description"><span class="experience-span">Bienvenido</span> a mi portafolio</p>
+                <div class="networks-container">
+                    <a href="https://www.linkedin.com/in/carlos-junior-437702179/" target="_blank" rel="noopener noreferrer"
+                        class="network-link network-link--linkedin"></a>
+                        <a href="https://www.instagram.com/carlos_junior360/" target="_blank" rel="noopener noreferrer"
+                        class="network-link network-link--instagram"></a>
+                    <a href="https://twitter.com/Carlos_junior36" target="_blank" rel="noopener noreferrer"
+                        class="network-link network-link--twitter"></a>
+                </div>
+            </div>
+            <div class="container-logos">
+               <div class="card-logo">
+                <img src="./assets/images/akar-icons_google-fill.png" alt="Google" class="logo-empre">
+               </div>
+               <div class="card-logo">
+                <img src="./assets/images/ant-design_amazon-outlined.png" alt="Amazon" class="logo-empre">
+               </div>
+               <div class="card-logo">
+                <img src="./assets/images/bi_spotify.png" alt="Spotify" class="logo-empre">
+               </div>
+            </div>
+        </header>
+        <main>
+            <section id="about" class="section" data-menu>
+                <h2 class="section-title">Acerca de mí</h2>
+                <p class="section-p">
+                    Mi nombre es <b>Carlos Junior Mejía Acuña</b>, soy un joven colombiano de 24 años de edad, y vivo en la ciudad de Bogotá D.C. Me apasiona la tecnología, la Programación y los videojuegos y asi mismo, las herramientas que hacen posible la creación de los mismos, actualmente soy estudiante de desarrollo web en <b>Academlo</b>, me encuentro en nivel junior y si deseas que iniciemos un proyecto juntos, sera un placer trabajar juntos.
+                </p>
+            </section>
+            <section id="services" class="section" data-menu>
+                <h2 class="section-title">Servicios</h2>
+                <section class="services" data-slices-container>
+                    <div class="services-btns">
+                        <button class="services-btn" data-left>&laquo;</button><button class="services-btn"
+                            data-right>&raquo;</button>
+                    </div>
+                    <article class="service">
+                        <div class="service-elipse"></div>
+                        <div class="service-contain">
+                            <img src="./assets/images/iconoir_design-pencil.svg" alt="" class="service-logo">
+                            <h3 class="service-title">Landing Page</h3>
+                            <p class="service-description">Estructuración web e implementación de formularios para maximizar
+                                la
+                                conversión de visitantes a clientes potenciales.</p>
+                        </div>
+                    </article>
+                    <article class="service">
+                        <div class="service-elipse"></div>
+                        <div class="service-contain">
+                            <img src="./assets/images/majesticons_speakerphone-line.svg" alt="" class="service-logo">
+                            <h3 class="service-title">Website</h3>
+                            <p class="service-description">Estructuración, diseño responsable, dinámismo y publicación de un
+                                sitio web informativo.</p>
+                        </div>
+                    </article>
+                    <article class="service">
+                        <div class="service-elipse"></div>
+                        <div class="service-contain">
+                            <img src="./assets/images/feather_search.svg" alt="" class="service-logo">
+                            <h3 class="service-title">Mantenimiento</h3>
+                            <p class="service-description">Revisión de código, búsqueda y solución de posibles fallos, y
+                                aplicación de cambios por un mes.</p>
+                        </div>
+                    </article>
+                </section>
+            </section>
+            <section id="skills" class="section" data-menu>
+                <h2 class="section-title">Mis Habilidades</h2>
+                <section class="skills">
+                    <h3 class="skills-title">Habilidades Técnicas</h3>
+                    <ul class="skills-list">
+                        <li class="skills-skill" data-skill>
+                            Estructuración de HTML
+                            <figure class="skill-figure">
+                                <img class="skill-img" src="./assets/images/html.svg" alt="Icono que representa HTML">
+                            </figure>
+                            <div class="skill-aviso">Click para ver más a detalle esta habilidad</div>
+                            <div class="progress-bar none">
+                                <div class="counter">0%</div>
+                                <div class="bar">
+                                    <div class="progress"></div>
+                                </div>
+                            </div>
+                            <ul class="skill-list none">
+                                <li class="skill-item">Uso correcto de etiquetas de linea y bloque para resaltar y
+                                    relacionar
+                                    semánticamente.</li>
+                                <li class="skill-item">Inserción de contenido embebido con buenas prácticas de
+                                    accesibilidad.
+                                </li>
+                                <li class="skill-item">Capa de validación de formularios con atributos HTML5.</li>
+                            </ul>
+                        </li>
+                        <li class="skills-skill" data-skill>
+                            Aplicación de hojas de estilos
+                            <figure class="skill-figure">
+                                <img class="skill-img" src="./assets/images/css.svg" alt="Icono que representa CSS">
+                            </figure>
+                            <div class="skill-aviso">Click para ver más a detalle esta habilidad</div>
+                            <div class="progress-bar none">
+                                <div class="counter">0%</div>
+                                <div class="bar">
+                                    <div class="progress"></div>
+                                </div>
+                            </div>
+                            <ul class="skill-list none">
+                                <li class="skill-item">Manejo básico de layout flexbox y grid.</li>
+                                <li class="skill-item">Uso de media queries para un dar un diseño adaptativo.</li>
+                                <li class="skill-item">Implementación de animaciones y transiciones con código CSS vanilla.
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="skills-skill" data-skill>
+                            Ejecución de scripts vanilla
+                            <figure class="skill-figure">
+                                <img class="skill-img" src="./assets/images/javascript.svg"
+                                    alt="Icono que representa Javascript">
+                            </figure>
+                            <div class="skill-aviso">Click para ver más a detalle esta habilidad</div>
+                            <div class="progress-bar none">
+                                <div class="counter">0%</div>
+                                <div class="bar">
+                                    <div class="progress"></div>
+                                </div>
+                            </div>
+                            <ul class="skill-list none">
+                                <li class="skill-item">Aplicación del paradigma de Programación Orientada a Objetos.</li>
+                                <li class="skill-item">Manejo y modificación del DOM para dar dinámismo.</li>
+                                <li class="skill-item">Incorporación de eventos del DOM para mejorar la interacción.</li>
+                            </ul>
+                        </li>
+                        <li class="skills-skill" data-skill>
+                            Sistema de gestión de versiones (GIT)
+                            <figure class="skill-figure">
+                                <img class="skill-img" src="./assets/images/github.svg"
+                                    alt="Icono que representa el sistema GIT">
+                            </figure>
+                            <div class="skill-aviso">Click para ver más a detalle esta habilidad</div>
+                            <div class="progress-bar none">
+                                <div class="counter">0%</div>
+                                <div class="bar">
+                                    <div class="progress"></div>
+                                </div>
+                            </div>
+                            <ul class="skill-list none">
+                                <li class="skill-item">Manejo de repositorio local mediante linea de comandos.</li>
+                                <li class="skill-item">Manipulación temporal de versiones.</li>
+                                <li class="skill-item">Trabajo colaborativo mediante ramas y repositorios remotos en GitHub.
+                                </li>
+                </section>
+            <section id="projects" class="section" data-menu>
+                <h2 class="section-title">Proyectos</h2>
+                <section class="subsection subsection--grid">
+                    <article class="proyecto">
+                        <img src="./assets/images/p1.jpg" alt="p1">
+                    </article>
+                    <article class="proyecto">
+                        <img src="./assets/images/p2.jpg" alt="p2">
+                    </article>
+                    <article class="proyecto">
+                        <img src="./assets/images/p3.jpg" alt="p3">
+                    </article>
+                    <article class="proyecto">
+                        <img src="./assets/images/p4.jpg" alt="p4">
+                    </article>
+                </section>
+            </section>
+            <section id="contact" class="section" data-menu>
+                <h2 class="section-title">Contacto</h2>
+                <form action="" id="form-contact" class="form form--validate">
+                    <legend>Si estás interesado en iniciar un proyecto puedes dejarme tus datos en el siguiente formulario, y te estaré contactando en las próximas 48 horas.</legend>
+                    <input type="text" name="name" class="form-input" placeholder="Escribe tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required data-validar data-message="Nombre sólo acepta letras y espacios en blanco">
+                    <input type="email" name="email" class="form-input" placeholder="Escribe tu correo electrónico" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required data-validar data-message="Email incorrecto">
+                    <input type="text" name="issue" class="form-input" placeholder="Asunto a tratar" required pattern="^.{1,50}$" data-validar data-message="Tu asunto no debe exceder los 50 caracteres">
+                    <textarea name="description" rows="5" class="form-input form-input--description" placeholder="Descripción" required data-validar data-message="Tu comentario no debe exceder los 255 caracteres" data-pattern="^.{1,255}$"></textarea>
+                    <input type="submit" class="form-submit" value="Enviar" data-submit>
+                    <div class="contact-form-loader none">
+                        <img src="./assets/images/loader.svg" alt="Cargando">
+                    </div>
+                    <div class="contact-form-response none">
+                        <p>Los datos han sido enviados</p>
+                    </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-redes-container">
+                <div class="line"></div>
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="https://www.linkedin.com/in/carlos-junior-437702179/" target="_blank" rel="noopener noreferrer" class="footer-link" title="Visitar"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="https://github.com/CJUNIOR98" target="_blank" rel="noopener noreferrer" class="footer-link" title="Visitar"><i class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="https://codepen.io/demonqilin" target="_blank" rel="noopener noreferrer" class="footer-link" title="Visitar"><i class="fa-brands fa-codepen"></i></a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="https://twitter.com/Carlos_junior36" target="_blank" rel="noopener noreferrer" class="footer-link" title="Visitar"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                </ul>
+                <div class="line"></div>
+            </div>
+            <p class="footer-copy">Carlos Mejía in 2022 &copy;</p>
+        </footer>
+    </div>
+
+    
+</body>
+</html>
